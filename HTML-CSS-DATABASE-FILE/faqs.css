@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/GetPaidStock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* center the image */
+}
+.bl {
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 0%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+}
+
+.content {
+  color: #0a2647;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  /* This will vertically center the <p> tag */
+}
+
+.content p {
+  text-align: center;
+  /* This will horizontally center the text inside the <p> tag */
+}
+
+.content1 {
+  color: #144272;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1 p {
+  text-align: center;
+  /* This will horizontally center the text inside the <p> tag */
+}
+
+.content2 {
+  color: #205295;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 p {
+  text-align: center;
+  /* This will horizontally center the text inside the <p> tag */
+}
+
+.content3 {
+  color: #2c74b3;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content3 p {
+  text-align: center;
+  /* This will horizontally center the text inside the <p> tag */
+}
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "+";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "-";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+.hr1 {
+  width: 50%;
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+form {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 12px;
+  margin-bottom: 18px;
+  width: 90%;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form1 {
+  color: green;
+  text-align: center;
+}
+.accordion-item-header1 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  padding: 0.75rem 1rem;
+}
+
+.accordion-item-header1[aria-expanded="false"]:hover {
+  background-color: #880505;
+}
+
+.accordion-item-header1[aria-expanded="true"] {
+  background-color: #d61313;
+}

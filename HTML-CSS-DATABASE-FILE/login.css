@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: white;
+  padding: 1.125em;
+  margin-top: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  font-family: "Montserrat", sans-serif;
+  width: 300px;
+}
+
+.form {
+  background-color: white;
+  padding: 2.125em;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  font-family: "Montserrat", sans-serif;
+  width: 300px;
+}
+
+.signup {
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  font-size: 17px;
+}
+
+.form--input:focus {
+  border: 1px solid #ffbe98;
+  outline: none;
+}
+
+.form--marketing {
+  display: flex;
+  margin-bottom: 1.25em;
+  align-items: center;
+}
+
+.form--marketing > input {
+  margin-right: 0.625em;
+}
+
+.form--marketing > label {
+  color: grey;
+}
+
+.checkbox,
+input[type="checkbox"] {
+  accent-color: #ffbe98;
+}
+
+.form--submit {
+  width: 50%;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: white;
+  background-color: #ffbe98;
+  border: 1px dashed #ffbe98;
+  cursor: pointer;
+}
+
+.form--submit:hover {
+  color: #ffbe98;
+  background-color: white;
+  border: 1px dashed #ffbe98;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.alink {
+  color: white;
+}
+
+.alink:hover {
+  color: #ffbe98;
+}
